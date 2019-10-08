@@ -1,0 +1,19 @@
+{
+  "name": "sis_produccion_back",
+  "version": "1.0.0",
+  "description": "Back para el proyecto de sistemas de produccion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoSarmiento/back_sis_produccion.git"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoSarmiento/back_sis_produccion/issues"
+  },
+  "homepage": "https://github.com/DiegoSarmiento/back_sis_produccion#readme"
+}
