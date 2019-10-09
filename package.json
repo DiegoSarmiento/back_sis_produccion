@@ -4,6 +4,8 @@
   "description": "Back para el proyecto de sistemas de produccion",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,19 @@
   "bugs": {
     "url": "https://github.com/DiegoSarmiento/back_sis_produccion/issues"
   },
-  "homepage": "https://github.com/DiegoSarmiento/back_sis_produccion#readme"
+  "homepage": "https://github.com/DiegoSarmiento/back_sis_produccion#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "nodemailer": "^6.3.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
 }
