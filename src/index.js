@@ -36,9 +36,15 @@ app.use(bodyParser.json());
     //importando routes
     const usuarios = require('./routes/usuarios.routes');
     const clientes = require('./routes/clientes.routes');
+    const reclamos = require('./routes/reclamos.routes');
+    const medidores = require('./routes/medidores.routes');
+    const suministros = require('./routes/suministros.routes');
 
     app.use('/api/usuarios', usuarios);
     app.use('/api/clientes', clientes);
+    app.use('/api/reclamos', reclamos);
+    app.use('/api/medidores',medidores);
+    app.use('/api/suministros',suministros);
 
     //Escuchando el Servidor
     server.on('listening',function(){
